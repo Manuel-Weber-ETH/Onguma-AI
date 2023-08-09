@@ -10,8 +10,6 @@ This repository contains all the code necessary to customize the algorithm to yo
 The repository contains 3 scripts and 1 pre-trained model:
 ## training.py
 training.py trains a convolutional neural network (CNN) on a set of training images belonging to two classes, and saves it.
-## main.py
-main.py imports the CNN and uses it to classify new images into folders.
 ## app.py
 app.py turns the CNN into a software with graphical user interface (GUI). This script can be turned into an .exe file, which can then be transferred to other computers.
 ## rhino_detection_model.h5
