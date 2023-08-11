@@ -8,7 +8,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import EarlyStopping, LearningRateScheduler
 
 # Set the path to your image directory
-image_directory = 'C:/0_Documents/2_Projects/Namibia - Onguma/AI Software/APP/Rendering to .exe/TRAINING'
+image_directory = 'directory'
 
 # Define the input image size
 input_size = (224, 224)
@@ -81,6 +81,6 @@ for epoch in range(5):  # Increase the number of epochs
     print(f"Validation Loss: {val_loss:.4f} - Validation Accuracy: {val_accuracy:.4f}")
 
 # Save the trained model
-model.save('C:/0_Documents/2_Projects/Namibia - Onguma/AI Software/rhino_detection_model_250k_8_8.h5')
+model.save('directory')
 
 print("Training completed. Model saved as 'rhino_detection_model_250k_8_8.h5'.")
